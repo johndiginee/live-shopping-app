@@ -10,6 +10,7 @@ session = requests.Session()
 session.auth = (settings.DYTE_ORG_ID, settings.DYTE_API_KEY)
 
 class DyteAPIClient(object):
+    """This class creates Create new meeting, Add participant to meeting and Refresh participant token."""
     def __init__(self):
         pass
 
